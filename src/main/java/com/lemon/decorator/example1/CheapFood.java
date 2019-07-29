@@ -1,4 +1,4 @@
-package com.lemon.decorator;
+package com.lemon.decorator.example1;
 
 public class CheapFood extends Food {
 

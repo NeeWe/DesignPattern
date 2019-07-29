@@ -1,5 +1,6 @@
 package com.lemon.decorator;
 
+import com.lemon.decorator.example1.*;
 import org.junit.Test;
 
 public class DecoratorTest {

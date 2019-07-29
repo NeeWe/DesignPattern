@@ -1,4 +1,4 @@
-package com.lemon.decorator;
+package com.lemon.decorator.example1;
 
 public class ExpensiveFood extends Food {
     public ExpensiveFood(Person person) {
