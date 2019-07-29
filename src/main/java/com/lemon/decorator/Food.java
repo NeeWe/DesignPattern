@@ -8,6 +8,7 @@ public abstract class Food implements Person{
         this.person = person;
     }
 
+    @Override
     public void eat() {
         person.eat();
     }
