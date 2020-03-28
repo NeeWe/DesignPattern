@@ -7,8 +7,8 @@ package com.lemon.decorator;
  */
 public class SugarDecorator extends MilkTeaDecorator {
 
-    public SugarDecorator(AddMeterial addMeterial) {
-        super(addMeterial);
+    public SugarDecorator(AddMateriel addMateriel) {
+        super(addMateriel);
     }
 
     @Override

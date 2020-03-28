@@ -5,16 +5,16 @@ package com.lemon.decorator;
  * @description
  * @date 2020-03-10 14:48
  */
-public abstract class MilkTeaDecorator implements AddMeterial {
-    private AddMeterial addMeterial;
+public abstract class MilkTeaDecorator implements AddMateriel {
+    private AddMateriel addMateriel;
 
-    public MilkTeaDecorator(AddMeterial addMeterial) {
-        this.addMeterial = addMeterial;
+    public MilkTeaDecorator(AddMateriel addMateriel) {
+        this.addMateriel = addMateriel;
     }
 
     @Override
     public void make() {
-        addMeterial.make();
+        addMateriel.make();
     }
 
     protected abstract void addSomething();

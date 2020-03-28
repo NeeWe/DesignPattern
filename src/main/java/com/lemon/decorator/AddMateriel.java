@@ -5,6 +5,6 @@ package com.lemon.decorator;
  * @description
  * @date 2020-03-10 14:45
  */
-public interface AddMeterial {
+public interface AddMateriel {
     void make();
 }

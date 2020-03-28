@@ -5,7 +5,7 @@ package com.lemon.decorator;
  * @description
  * @date 2020-03-10 14:47
  */
-public class BubbleMilkTea implements AddMeterial {
+public class BubbleMilkTea implements AddMateriel {
 
     @Override
     public void make() {

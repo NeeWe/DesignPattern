@@ -8,8 +8,8 @@ package com.lemon.decorator;
 public class Client {
 
     public static void main(String[] args) {
-        AddMeterial addMeterial = new BubbleMilkTea();
-        MilkTeaDecorator milkTeaDecorator = new SugarDecorator(addMeterial);
+        AddMateriel addMateriel = new BubbleMilkTea();
+        MilkTeaDecorator milkTeaDecorator = new SugarDecorator(addMateriel);
         milkTeaDecorator.make();
     }
 }
